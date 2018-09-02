@@ -1,0 +1,184 @@
+.home {
+  width: 1440px;
+  height: 900px;
+  background-color: #313237;
+}
+
+.home::after {
+  position: absolute;
+  z-index: 199;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  opacity: .7;
+  background: radial-gradient(circle, rgba(16, 16, 18, 0) 0%, #101012 100%);
+  pointer-events: none;
+}
+
+.home .main {
+  position: absolute;
+  z-index: 201;
+  top: 327px;
+  left: 458.5px;
+  width: 542px;
+}
+
+.home .main .info {
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #FF7387;
+  text-align: center;
+}
+
+.home .main .ip {
+  margin-top: 10px;
+  font-family: "SF Pro Display";
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: -2.4px;
+  line-height: 95px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.home .main .current-location {
+  margin-top: 20px;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.home .main .current-location span {
+  color: #ffffff;
+}
+
+.home .main .select-location {
+  display: flex;
+  justify-content: space-between;
+  margin: 52px auto 0;
+  width: 500px;
+  height: 70px;
+}
+
+.home .main .select-location .location {
+  padding-left: 27.5px;
+  width: 305px;
+  height: 70px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 66px;
+  color: #ffffff;
+}
+
+.home .main .select-location .location span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.home .main .select-location .select-btn {
+  width: 175px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #101012;
+  text-align: center;
+}
+
+.home .pin-field {
+  position: absolute;
+  z-index: 200;
+  top: 277px;
+  left: 720px;
+}
+
+.home .pin-field .pin-centre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.home .pin-field .pin-wave-small {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 110px;
+  height: 110px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.home .pin-field .pin-wave-normal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.home .pin-field .pin-wave-large {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 960px;
+  height: 960px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, button, ul, li, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+}
+
+button, input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
