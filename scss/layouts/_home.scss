@@ -1,9 +1,11 @@
 $z-index-base: 200;
 
 .home {
+  position: relative;
   width: $root-width;
   height: $root-height;
   background-color: #313237;
+  overflow: hidden;
 
   &::after {
     position: absolute;
@@ -151,5 +153,15 @@ $z-index-base: 200;
       border-radius: 50%;
       background-color: rgba(255, 255, 255, .02);	
     }
+  }
+
+  .globe {
+    position: absolute;
+    z-index: $z-index-base - 2;
+    top: 0;
+    left: 0;
+    width: 1500.83%;
+    opacity: 0;
+    transform: translate(-9992px, -5849px) rotate(90deg);
   }
 }

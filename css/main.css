@@ -1,7 +1,9 @@
 .home {
+  position: relative;
   width: 1440px;
   height: 900px;
   background-color: #313237;
+  overflow: hidden;
 }
 
 .home::after {
@@ -150,6 +152,16 @@
   border: 2px solid rgba(255, 255, 255, 0.05);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.02);
+}
+
+.home .globe {
+  position: absolute;
+  z-index: 198;
+  top: 0;
+  left: 0;
+  width: 1500.83%;
+  opacity: 0;
+  transform: translate(-9992px, -5849px) rotate(90deg);
 }
 
 * {
