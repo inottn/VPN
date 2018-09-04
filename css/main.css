@@ -164,6 +164,19 @@
   transform: translate(-9992px, -5849px) rotate(90deg);
 }
 
+.home .map-grid {
+  position: absolute;
+  z-index: 197;
+  top: 0;
+  left: 0;
+  width: 1460px;
+  height: 921px;
+  background-image: url(../images/Map-Grid.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: translate(-10px, -10px);
+}
+
 * {
   box-sizing: border-box;
 }
