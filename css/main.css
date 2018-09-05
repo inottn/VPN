@@ -154,9 +154,28 @@
   background-color: rgba(255, 255, 255, 0.02);
 }
 
-.home .globe {
+.home .maps::after {
   position: absolute;
   z-index: 198;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: radial-gradient(circle, rgba(16, 16, 18, 0) 0%, rgba(16, 16, 18, 0.88) 100%);
+}
+
+.home .maps .Lagos-Nigeria {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 103.06%;
+  transform: translate(-22px, -369px);
+}
+
+.home .globe {
+  position: absolute;
+  z-index: 197;
   top: 0;
   left: 0;
   width: 1500.83%;
@@ -166,7 +185,7 @@
 
 .home .map-grid {
   position: absolute;
-  z-index: 197;
+  z-index: 196;
   top: 0;
   left: 0;
   width: 1460px;
