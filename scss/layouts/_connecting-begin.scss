@@ -1,0 +1,55 @@
+.home.connecting-begin {
+
+  .main {
+    opacity: 0;
+    transition: opacity .5s $ease-both .37s;
+
+    .info {
+      transform: translate(-43px, 30px);
+      transition: transform .5s $ease-both .37s;
+    }
+
+    .ip {
+      transform: translate(59.5px, 30px);
+      transition: transform .5s $ease-both .37s;
+    }
+
+    .current-location {
+      transform: translate(-27.5px, 30px);
+      transition: transform .5s $ease-both .37s;
+    }
+
+    .select-location {
+      transform: translate(0, 20px);
+      transition: transform .5s $ease-both .37s;
+    }
+  }
+
+  .pin-field {
+    opacity: 0;
+    transition: opacity .5s $ease-both .5s;
+
+    .pin-centre {
+      transform: translate(-50%, -50%) translateY(130px);
+      transition: transform .5s $ease-both .5s;
+    }
+
+    .pin-wave-small {
+      width: 8px;
+      height: 8px;
+      transition: width .4s $ease-both 0s, height .4s $ease-both 0s;
+    }
+
+    .pin-wave-normal {
+      width: 14px;
+      height: 14px;
+      transition: width .4s $ease-both 0s, height .4s $ease-both 0s;
+    }
+
+    .pin-wave-large {
+      width: 14px;
+      height: 14px;
+      transition: width .4s $ease-both 0s, height .4s $ease-both 0s;
+    }
+  }
+}

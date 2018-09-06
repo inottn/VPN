@@ -196,6 +196,59 @@
   transform: translate(-10px, -10px);
 }
 
+.home.connecting-begin .main {
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
+}
+
+.home.connecting-begin .main .info {
+  transform: translate(-43px, 30px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
+}
+
+.home.connecting-begin .main .ip {
+  transform: translate(59.5px, 30px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
+}
+
+.home.connecting-begin .main .current-location {
+  transform: translate(-27.5px, 30px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
+}
+
+.home.connecting-begin .main .select-location {
+  transform: translate(0, 20px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
+}
+
+.home.connecting-begin .pin-field {
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.5s;
+}
+
+.home.connecting-begin .pin-field .pin-centre {
+  transform: translate(-50%, -50%) translateY(130px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.5s;
+}
+
+.home.connecting-begin .pin-field .pin-wave-small {
+  width: 8px;
+  height: 8px;
+  transition: width 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connecting-begin .pin-field .pin-wave-normal {
+  width: 14px;
+  height: 14px;
+  transition: width 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connecting-begin .pin-field .pin-wave-large {
+  width: 14px;
+  height: 14px;
+  transition: width 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
 * {
   box-sizing: border-box;
 }
