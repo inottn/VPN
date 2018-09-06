@@ -52,4 +52,18 @@
       transition: width .4s $ease-both 0s, height .4s $ease-both 0s;
     }
   }
+
+  .maps {
+    &::after {
+      opacity: 0;
+      transition: opacity .5s $ease-in .5s;
+    }
+
+    .Lagos-Nigeria {
+      width: 3.06%;
+      opacity: 0;
+      transform: translate(676.26px, 498.26px) rotate(-30deg);
+      transition: width .2s $ease-in .5s, opacity .2s $ease-in .5s, transform .2s $ease-in .5s;
+    }
+  }
 }
