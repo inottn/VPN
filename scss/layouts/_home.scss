@@ -168,22 +168,24 @@ $z-index-base: 200;
     }
 
     .Lagos-Nigeria {
+      $scale-value: 1.0306;
       position: absolute;
       top: 0;
       left: 0;
-      width: 103.06%;
-      transform: translate(-22px, -369px);
+      width: 100%;
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22 / $scale-value + px, -369 / $scale-value + px);
     }
   }
 
   .globe {
+    $scale-value: 15.0083;
     position: absolute;
     z-index: $z-index-base - 3;
     top: 0;
     left: 0;
-    width: 1500.83%;
+    width: 100%;
     opacity: 0;
-    transform: translate(-9992px, -5849px) rotate(90deg);
+    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-9992 / $scale-value + px, -5849 / $scale-value + px) rotate(90deg);
   }
 
   .map-grid {

@@ -60,10 +60,10 @@
     }
 
     .Lagos-Nigeria {
-      width: 3.06%;
+      $scale-value: .0306;
       opacity: 0;
-      transform: translate(676.26px, 498.26px) rotate(-30deg);
-      transition: width .2s $ease-in .5s, opacity .2s $ease-in .5s, transform .2s $ease-in .5s;
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(676.26 / $scale-value + px, 498.26 / $scale-value + px) rotate(-30deg);
+      transition: opacity .2s $ease-in .5s, transform .2s $ease-in .5s;
     }
   }
 }
