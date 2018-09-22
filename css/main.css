@@ -278,7 +278,7 @@
 .home.connecting-search-locations .maps .United-States {
   opacity: 1;
   transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -358.04386px);
-  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+  transition: opacity 0.56s cubic-bezier(0, 0.63, 0.35, 1) 0.18s, transform 0.56s cubic-bezier(0.22, 0.61, 0.35, 1) 0.18s;
 }
 
 * {
