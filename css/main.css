@@ -173,6 +173,15 @@
   transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -358.04386px);
 }
 
+.home .maps .United-States {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: scale(0.8375) translate(-9.70149%, -9.70149%) translate(139.70149px, -182.68657px);
+}
+
 .home .globe {
   position: absolute;
   z-index: 197;
@@ -264,6 +273,12 @@
   opacity: 1;
   transform: scale(1.2722) translate(10.698%, 10.698%) translate(-154.06383px, 22.98381px) rotate(0deg);
   transition: opacity 0.52s cubic-bezier(0.22, 0.61, 0.35, 1) 0.71s, transform 0.52s cubic-bezier(0.22, 0.61, 0.35, 1) 0.71s;
+}
+
+.home.connecting-search-locations .maps .United-States {
+  opacity: 1;
+  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -358.04386px);
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 * {
