@@ -19,6 +19,69 @@
   pointer-events: none;
 }
 
+.home .search-pin-field {
+  position: absolute;
+  z-index: 202;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.home .search-pin-field .search-pin {
+  position: absolute;
+}
+
+.home .search-pin-field .search-pin .pin-centre {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.home .search-pin-field .search-pin .pin-wave {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+}
+
+.home .search-pin-field .search-pin-1 {
+  top: 288px;
+  left: 943px;
+}
+
+.home .search-pin-field .search-pin-2 {
+  top: 635px;
+  left: 290px;
+}
+
+.home .search-pin-field .search-pin-3 {
+  top: 189px;
+  left: 290px;
+}
+
+.home .search-pin-field .search-pin-4 {
+  top: 450px;
+  left: 481px;
+}
+
+.home .search-pin-field .search-pin-5 {
+  top: 152px;
+  left: 1238px;
+}
+
+.home .search-pin-field .search-pin-6 {
+  top: 585px;
+  left: 1169px;
+}
+
 .home .main {
   position: absolute;
   z-index: 201;

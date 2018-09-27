@@ -20,6 +20,69 @@ $z-index-base: 200;
     pointer-events: none;
   }
 
+  .search-pin-field {
+    position: absolute;
+    z-index: $z-index-base + 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+
+    .search-pin {
+      position: absolute;
+
+      .pin-centre {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        transform: translate(-50%, -50%);
+      }
+
+      .pin-wave {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, .2);
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .search-pin-1 {
+      top: 288px;
+      left: 943px;
+    }
+
+    .search-pin-2 {
+      top: 635px;
+      left: 290px;
+    }
+    
+    .search-pin-3 {
+      top: 189px;
+      left: 290px;
+    }
+
+    .search-pin-4 {
+      top: 450px;
+      left: 481px;
+    }
+
+    .search-pin-5 {
+      top: 152px;
+      left: 1238px;
+    }
+
+    .search-pin-6 {
+      top: 585px;
+      left: 1169px;
+    }
+  }
+
   .main {
     position: absolute;
     z-index: $z-index-base + 1;
