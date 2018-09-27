@@ -8,4 +8,11 @@
       transition: opacity .56s cubic-bezier(0, 0.63, 0.35, 1) .18s, transform .56s $ease-out .18s;
     }
   }
+
+  .globe {
+    $scale-value: 7.4569;
+    opacity: 0;
+    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-735 / $scale-value + px, -756 / $scale-value + px) rotate(0deg);
+    transition: opacity .74s $ease-out 0s, transform .74s $ease-out 0s;
+  }
 }

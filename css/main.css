@@ -281,6 +281,12 @@
   transition: opacity 0.56s cubic-bezier(0, 0.63, 0.35, 1) 0.18s, transform 0.56s cubic-bezier(0.22, 0.61, 0.35, 1) 0.18s;
 }
 
+.home.connecting-search-locations .globe {
+  opacity: 0;
+  transform: scale(7.4569) translate(43.2948%, 43.2948%) translate(-98.56643px, -101.38261px) rotate(0deg);
+  transition: opacity 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s, transform 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s;
+}
+
 * {
   box-sizing: border-box;
 }
