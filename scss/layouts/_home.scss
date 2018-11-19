@@ -246,7 +246,17 @@ $z-index-base: 200;
       left: 0;
       width: 100%;
       opacity: 0;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(117/ $scale-value + px, -153 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(117 / $scale-value + px, -153 / $scale-value + px);
+    }
+
+    .Iowa-US {
+      $scale-value: .0653;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(944.02 / $scale-value + px, 199.02 / $scale-value + px);
     }
   }
 
