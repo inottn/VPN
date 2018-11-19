@@ -21,7 +21,7 @@
 
 .home .search-pin-field {
   position: absolute;
-  z-index: 202;
+  z-index: 201;
   top: 0;
   bottom: 0;
   left: 0;
@@ -84,7 +84,7 @@
 
 .home .main {
   position: absolute;
-  z-index: 201;
+  z-index: 203;
   top: 327px;
   left: 458.5px;
   width: 542px;

@@ -22,7 +22,7 @@ $z-index-base: 200;
 
   .search-pin-field {
     position: absolute;
-    z-index: $z-index-base + 2;
+    z-index: $z-index-base + 1;
     top: 0;
     bottom: 0;
     left: 0;
@@ -85,7 +85,7 @@ $z-index-base: 200;
 
   .main {
     position: absolute;
-    z-index: $z-index-base + 1;
+    z-index: $z-index-base + 3;
     top: 327px;
     left: 458.5px;
     width: 542px;
