@@ -1,0 +1,23 @@
+.home.connected {
+
+  .maps {
+    &::after {
+      opacity: 1;
+      transition: opacity .5s $ease-both 0s;
+    }
+
+    .Lagos-Nigeria {
+      $scale-value: 2.5861;
+      opacity: 0;
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-1155.68 / $scale-value + px, -1333.68 / $scale-value + px) rotate(-30deg);
+      transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
+    }
+
+    .Iowa-US {
+      $scale-value: 1.0306;
+      opacity: 1;
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22 / $scale-value + px, -542 / $scale-value + px);
+      transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
+    }
+  }
+}

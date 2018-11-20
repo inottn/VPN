@@ -394,6 +394,23 @@
   transition: opacity 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s, transform 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s;
 }
 
+.home.connected .maps::after {
+  opacity: 1;
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connected .maps .Lagos-Nigeria {
+  opacity: 0;
+  transform: scale(2.5861) translate(30.66587%, 30.66587%) translate(-446.8814px, -515.71092px) rotate(-30deg);
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connected .maps .Iowa-US {
+  opacity: 1;
+  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -525.90724px);
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
 * {
   box-sizing: border-box;
 }
