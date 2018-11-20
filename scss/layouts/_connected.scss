@@ -1,5 +1,48 @@
 .home.connected {
 
+  .search-pin-field {
+    .search-pin-1 {
+      top: 277px;
+      left: 709px;
+      transition: top .5s $ease-both 0s, left .5s $ease-both 0s;
+    }
+
+    .search-pin-2 {
+      top: 939px;
+      left: 139px;
+      opacity: 0;
+      transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
+    }
+
+    .search-pin-3 {
+      top: 493px;
+      left: 139px;
+      opacity: 0;
+      transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
+    }
+
+    .search-pin-4 {
+      top: 454px;
+      left: 329px;
+      opacity: 0;
+      transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
+    }
+
+    .search-pin-5 {
+      top: 456px;
+      left: 1087px;
+      opacity: 0;
+      transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
+    }
+
+    .search-pin-6 {
+      top: 889px;
+      left: 1018px;
+      opacity: 0;
+      transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
+    }
+  }
+
   .maps {
     &::after {
       opacity: 1;
