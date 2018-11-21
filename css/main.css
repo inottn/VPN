@@ -396,7 +396,7 @@
 
 .home.connected .search-pin-field .search-pin-1 {
   top: 277px;
-  left: 709px;
+  left: 720px;
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
