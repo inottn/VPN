@@ -56,6 +56,13 @@
       transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
 
+    .United-States {
+      $scale-value: 3.0083;
+      opacity: 0;
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-2188 / $scale-value + px, -1638 / $scale-value + px);
+      transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
+    }
+
     .Iowa-US {
       $scale-value: 1.0306;
       opacity: 1;

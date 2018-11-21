@@ -446,6 +446,12 @@
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
+.home.connected .maps .United-States {
+  opacity: 0;
+  transform: scale(3.0083) translate(33.37932%, 33.37932%) translate(-727.32108px, -544.49357px);
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
 .home.connected .maps .Iowa-US {
   opacity: 1;
   transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -525.90724px);

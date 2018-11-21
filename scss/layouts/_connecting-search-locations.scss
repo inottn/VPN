@@ -38,7 +38,7 @@
     .United-States {
       $scale-value: 1.0306;
       opacity: 1;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22/ $scale-value + px, -369 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22 / $scale-value + px, -369 / $scale-value + px);
       transition: opacity .56s cubic-bezier(0, 0.63, 0.35, 1) .18s, transform .56s $ease-out .18s;
     }
   }
