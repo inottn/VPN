@@ -435,6 +435,34 @@
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
+.home.connected .pin-field {
+  opacity: 1;
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.28s;
+}
+
+.home.connected .pin-field .pin-centre {
+  opacity: 0;
+  transition: none;
+}
+
+.home.connected .pin-field .pin-wave-small {
+  width: 110px;
+  height: 110px;
+  transition: width 0.64s cubic-bezier(0.64, 0.04, 0.35, 1) 0.28s, height 0.64s cubic-bezier(0.64, 0.04, 0.35, 1) 0.28s;
+}
+
+.home.connected .pin-field .pin-wave-normal {
+  width: 450px;
+  height: 450px;
+  transition: width 0.69s cubic-bezier(0.64, 0.04, 0.35, 1) 0.48s, height 0.69s cubic-bezier(0.64, 0.04, 0.35, 1) 0.48s;
+}
+
+.home.connected .pin-field .pin-wave-large {
+  width: 966px;
+  height: 966px;
+  transition: width 0.95s cubic-bezier(0.64, 0.04, 0.35, 1) 0.76s, height 0.95s cubic-bezier(0.64, 0.04, 0.35, 1) 0.76s;
+}
+
 .home.connected .maps::after {
   opacity: 1;
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;

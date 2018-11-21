@@ -43,6 +43,34 @@
     }
   }
 
+  .pin-field {
+    opacity: 1;
+    transition: opacity .5s $ease-both .28s;
+
+    .pin-centre {
+      opacity: 0;
+      transition: none;
+    }
+
+    .pin-wave-small {
+      width: 110px;
+      height: 110px;
+      transition: width .64s $ease-both .28s, height .64s $ease-both .28s;
+    }
+
+    .pin-wave-normal {
+      width: 450px;
+      height: 450px;
+      transition: width .69s $ease-both .48s, height .69s $ease-both .48s;
+    }
+
+    .pin-wave-large {
+      width: 966px;
+      height: 966px;
+      transition: width .95s $ease-both .76s, height .95s $ease-both .76s;
+    }
+  }
+
   .maps {
     &::after {
       opacity: 1;
