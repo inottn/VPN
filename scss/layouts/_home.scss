@@ -83,6 +83,70 @@ $z-index-base: 200;
     }
   }
 
+  .main-connected {
+    position: absolute;
+    z-index: $z-index-base + 4;
+    top: 327px;
+    left: 458.5px;
+    width: 542px;
+    opacity: 0;
+    pointer-events: none;
+
+    .info {
+      font-family: "SF Pro Display";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      color: #80ff4b;
+      text-align: center;
+    }
+
+    .ip {
+      margin-top: 10px;
+      font-family: "SF Pro Display";
+      font-size: 80px;
+      font-weight: 900;
+      letter-spacing: -2.4px;
+      line-height: 95px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .virtual-location {
+      margin-top: 20px;
+      font-family: "SF Pro Display";
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 29px;
+      color: rgba(255, 255, 255, .5);
+      text-align: center;
+
+      span {
+        color: #ffffff;
+      }
+    }
+
+    .select-location {
+      margin: 52px auto 0;
+      width: 500px;
+      height: 70px;
+      text-align: center;
+
+      .select-btn {
+        width: 175px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        font-family: "SF Pro Display";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        color: #101012;
+        text-align: center;
+      }
+    }
+  }
+
   .main {
     position: absolute;
     z-index: $z-index-base + 3;

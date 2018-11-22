@@ -82,6 +82,70 @@
   left: 1169px;
 }
 
+.home .main-connected {
+  position: absolute;
+  z-index: 204;
+  top: 327px;
+  left: 458.5px;
+  width: 542px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.home .main-connected .info {
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #80ff4b;
+  text-align: center;
+}
+
+.home .main-connected .ip {
+  margin-top: 10px;
+  font-family: "SF Pro Display";
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: -2.4px;
+  line-height: 95px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.home .main-connected .virtual-location {
+  margin-top: 20px;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.home .main-connected .virtual-location span {
+  color: #ffffff;
+}
+
+.home .main-connected .select-location {
+  margin: 52px auto 0;
+  width: 500px;
+  height: 70px;
+  text-align: center;
+}
+
+.home .main-connected .select-location .select-btn {
+  width: 175px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #101012;
+  text-align: center;
+}
+
 .home .main {
   position: absolute;
   z-index: 203;
