@@ -99,6 +99,7 @@ $z-index-base: 200;
       line-height: 29px;
       color: #80ff4b;
       text-align: center;
+      transform: translateY(31px);
     }
 
     .ip {
@@ -110,6 +111,7 @@ $z-index-base: 200;
       line-height: 95px;
       color: #ffffff;
       text-align: center;
+      transform: translateY(35px);
     }
 
     .virtual-location {
@@ -120,6 +122,7 @@ $z-index-base: 200;
       line-height: 29px;
       color: rgba(255, 255, 255, .5);
       text-align: center;
+      transform: translateY(35px);
 
       span {
         color: #ffffff;
@@ -131,6 +134,7 @@ $z-index-base: 200;
       width: 500px;
       height: 70px;
       text-align: center;
+      transform: translateY(26px);
 
       .select-btn {
         width: 175px;
