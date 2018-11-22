@@ -138,7 +138,7 @@
 }
 
 .home .main-connected .select-location .select-btn {
-  width: 175px;
+  width: 220px;
   height: 70px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -460,6 +460,32 @@
   opacity: 0;
   transform: scale(7.4569) translate(43.2948%, 43.2948%) translate(-98.56643px, -101.38261px) rotate(0deg);
   transition: opacity 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s, transform 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s;
+}
+
+.home.connected .main-connected {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connected .main-connected .info {
+  transform: translateY(0px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connected .main-connected .ip {
+  transform: translateY(0px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connected .main-connected .virtual-location {
+  transform: translateY(0px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home.connected .main-connected .select-location {
+  transform: translateY(0px);
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .search-pin-field .search-pin-1 {

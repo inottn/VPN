@@ -1,5 +1,31 @@
 .home.connected {
 
+  .main-connected {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity .5s $ease-both 0s;
+
+    .info {
+      transform: translateY(0px);
+      transition: transform .5s $ease-both 0s;
+    }
+
+    .ip {
+      transform: translateY(0px);
+      transition: transform .5s $ease-both 0s;
+    }
+
+    .virtual-location {
+      transform: translateY(0px);
+      transition: transform .5s $ease-both 0s;
+    }
+
+    .select-location {
+      transform: translateY(0px);
+      transition: transform .5s $ease-both 0s;
+    }
+  }
+
   .search-pin-field {
     .search-pin-1 {
       top: 277px;
