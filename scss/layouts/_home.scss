@@ -91,6 +91,7 @@ $z-index-base: 200;
     width: 542px;
     opacity: 0;
     pointer-events: none;
+    transition: opacity .5s $ease-both 0s;
 
     .info {
       font-family: "SF Pro Display";
@@ -100,6 +101,7 @@ $z-index-base: 200;
       color: #80ff4b;
       text-align: center;
       transform: translateY(31px);
+      transition: transform .5s $ease-both 0s;
     }
 
     .ip {
@@ -112,6 +114,7 @@ $z-index-base: 200;
       color: #ffffff;
       text-align: center;
       transform: translateY(35px);
+      transition: transform .5s $ease-both 0s;
     }
 
     .virtual-location {
@@ -123,6 +126,7 @@ $z-index-base: 200;
       color: rgba(255, 255, 255, .5);
       text-align: center;
       transform: translateY(35px);
+      transition: transform .5s $ease-both 0s;
 
       span {
         color: #ffffff;
@@ -135,6 +139,7 @@ $z-index-base: 200;
       height: 70px;
       text-align: center;
       transform: translateY(26px);
+      transition: transform .5s $ease-both 0s;
 
       .select-btn {
         width: 220px;
