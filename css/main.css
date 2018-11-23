@@ -161,6 +161,8 @@
   top: 327px;
   left: 458.5px;
   width: 542px;
+  opacity: 1;
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .info {
@@ -170,6 +172,7 @@
   line-height: 29px;
   color: #FF7387;
   text-align: center;
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .ip {
@@ -181,6 +184,7 @@
   line-height: 95px;
   color: #ffffff;
   text-align: center;
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .current-location {
@@ -191,6 +195,7 @@
   line-height: 29px;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .current-location span {
@@ -203,6 +208,7 @@
   margin: 52px auto 0;
   width: 500px;
   height: 70px;
+  transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .select-location .location {

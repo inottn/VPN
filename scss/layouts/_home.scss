@@ -162,6 +162,8 @@ $z-index-base: 200;
     top: 327px;
     left: 458.5px;
     width: 542px;
+    opacity: 1;
+    transition: opacity .5s $ease-both 0s;
 
     .info {
       font-family: "SF Pro Display";
@@ -170,6 +172,7 @@ $z-index-base: 200;
       line-height: 29px;
       color: #FF7387;
       text-align: center;
+      transition: transform .5s $ease-both 0s;
     }
 
     .ip {
@@ -181,6 +184,7 @@ $z-index-base: 200;
       line-height: 95px;
       color: #ffffff;
       text-align: center;
+      transition: transform .5s $ease-both 0s;
     }
 
     .current-location {
@@ -191,6 +195,7 @@ $z-index-base: 200;
       line-height: 29px;
       color: rgba(255, 255, 255, .5);
       text-align: center;
+      transition: transform .5s $ease-both 0s;
 
       span {
         color: #ffffff;
@@ -203,6 +208,7 @@ $z-index-base: 200;
       margin: 52px auto 0;
       width: 500px;
       height: 70px;
+      transition: transform .5s $ease-both 0s;
 
       .location {
         padding-left: 27.5px;
