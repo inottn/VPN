@@ -2,6 +2,7 @@
 
   .main {
     opacity: 0;
+    pointer-events: none;
     transition: opacity .5s $ease-both .37s;
 
     .info {
