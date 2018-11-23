@@ -316,6 +316,7 @@ $z-index-base: 200;
       left: 0;
       width: 100%;
       transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22 / $scale-value + px, -369 / $scale-value + px);
+      transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
 
     .United-States {
@@ -336,6 +337,7 @@ $z-index-base: 200;
       width: 100%;
       opacity: 0;
       transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(944.02 / $scale-value + px, 199.02 / $scale-value + px);
+      transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
   }
 

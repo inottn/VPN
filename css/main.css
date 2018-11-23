@@ -313,6 +313,7 @@
   left: 0;
   width: 100%;
   transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -358.04386px);
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .maps .United-States {
@@ -331,6 +332,7 @@
   width: 100%;
   opacity: 0;
   transform: scale(0.0653) translate(-715.69678%, -715.69678%) translate(14456.66156px, 3047.77948px);
+  transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .globe {
