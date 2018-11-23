@@ -1,7 +1,8 @@
 .home {
   position: relative;
-  width: 1440px;
-  height: 900px;
+  width: 100vw;
+  max-height: 62.5vw;
+  height: 100vh;
   background-color: #313237;
   overflow: hidden;
 }
@@ -35,8 +36,8 @@
 
 .home .search-pin-field .search-pin .pin-centre {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 0.69444vw;
+  height: 0.69444vw;
   border-radius: 50%;
   background-color: #ffffff;
   transform: translate(-50%, -50%);
@@ -44,50 +45,50 @@
 
 .home .search-pin-field .search-pin .pin-wave {
   position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 2px solid #ffffff;
+  width: 0.69444vw;
+  height: 0.69444vw;
+  border: 0.13889vw solid #ffffff;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.2);
   transform: translate(-50%, -50%);
 }
 
 .home .search-pin-field .search-pin-1 {
-  top: 288px;
-  left: 943px;
+  top: 20vw;
+  left: 65.48611vw;
 }
 
 .home .search-pin-field .search-pin-2 {
-  top: 635px;
-  left: 290px;
+  top: 44.09722vw;
+  left: 20.13889vw;
 }
 
 .home .search-pin-field .search-pin-3 {
-  top: 189px;
-  left: 290px;
+  top: 13.125vw;
+  left: 20.13889vw;
 }
 
 .home .search-pin-field .search-pin-4 {
-  top: 450px;
-  left: 481px;
+  top: 31.25vw;
+  left: 33.40278vw;
 }
 
 .home .search-pin-field .search-pin-5 {
-  top: 152px;
-  left: 1238px;
+  top: 10.55556vw;
+  left: 85.97222vw;
 }
 
 .home .search-pin-field .search-pin-6 {
-  top: 585px;
-  left: 1169px;
+  top: 40.625vw;
+  left: 81.18056vw;
 }
 
 .home .main-connected {
   position: absolute;
   z-index: 204;
-  top: 327px;
-  left: 458.5px;
-  width: 542px;
+  top: 22.70833vw;
+  left: 31.84028vw;
+  width: 37.63889vw;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
@@ -95,37 +96,37 @@
 
 .home .main-connected .info {
   font-family: "SF Pro Display";
-  font-size: 24px;
+  font-size: 1.66667vw;
   font-weight: 700;
-  line-height: 29px;
+  line-height: 2.01389vw;
   color: #80ff4b;
   text-align: center;
-  transform: translateY(31px);
+  transform: translateY(2.15278vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main-connected .ip {
-  margin-top: 10px;
+  margin-top: 0.69444vw;
   font-family: "SF Pro Display";
-  font-size: 80px;
+  font-size: 5.55556vw;
   font-weight: 900;
-  letter-spacing: -2.4px;
-  line-height: 95px;
+  letter-spacing: -0.16667vw;
+  line-height: 6.59722vw;
   color: #ffffff;
   text-align: center;
-  transform: translateY(35px);
+  transform: translateY(2.43056vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main-connected .virtual-location {
-  margin-top: 20px;
+  margin-top: 1.38889vw;
   font-family: "SF Pro Display";
-  font-size: 24px;
+  font-size: 1.66667vw;
   font-weight: 500;
-  line-height: 29px;
+  line-height: 2.01389vw;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  transform: translateY(35px);
+  transform: translateY(2.43056vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
@@ -134,23 +135,23 @@
 }
 
 .home .main-connected .disconnect {
-  margin: 52px auto 0;
-  width: 500px;
-  height: 70px;
+  margin: 3.61111vw auto 0;
+  width: 34.72222vw;
+  height: 4.86111vw;
   text-align: center;
-  transform: translateY(26px);
+  transform: translateY(1.80556vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main-connected .disconnect .disconnect-btn {
-  width: 220px;
-  height: 70px;
-  border-radius: 10px;
+  width: 15.27778vw;
+  height: 4.86111vw;
+  border-radius: 0.69444vw;
   background-color: #ffffff;
   font-family: "SF Pro Display";
-  font-size: 24px;
+  font-size: 1.66667vw;
   font-weight: 700;
-  line-height: 29px;
+  line-height: 2.01389vw;
   color: #101012;
   text-align: center;
 }
@@ -158,41 +159,41 @@
 .home .main {
   position: absolute;
   z-index: 203;
-  top: 327px;
-  left: 458.5px;
-  width: 542px;
+  top: 22.70833vw;
+  left: 31.84028vw;
+  width: 37.63889vw;
   opacity: 1;
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .info {
   font-family: "SF Pro Display";
-  font-size: 24px;
+  font-size: 1.66667vw;
   font-weight: 700;
-  line-height: 29px;
+  line-height: 2.01389vw;
   color: #FF7387;
   text-align: center;
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .ip {
-  margin-top: 10px;
+  margin-top: 0.69444vw;
   font-family: "SF Pro Display";
-  font-size: 80px;
+  font-size: 5.55556vw;
   font-weight: 900;
-  letter-spacing: -2.4px;
-  line-height: 95px;
+  letter-spacing: -0.16667vw;
+  line-height: 6.59722vw;
   color: #ffffff;
   text-align: center;
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .current-location {
-  margin-top: 20px;
+  margin-top: 1.38889vw;
   font-family: "SF Pro Display";
-  font-size: 24px;
+  font-size: 1.66667vw;
   font-weight: 500;
-  line-height: 29px;
+  line-height: 2.01389vw;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
@@ -205,23 +206,23 @@
 .home .main .connect {
   display: flex;
   justify-content: space-between;
-  margin: 52px auto 0;
-  width: 500px;
-  height: 70px;
+  margin: 3.61111vw auto 0;
+  width: 34.72222vw;
+  height: 4.86111vw;
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .main .connect .location {
-  padding-left: 27.5px;
-  width: 305px;
-  height: 70px;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
+  padding-left: 1.90972vw;
+  width: 21.18056vw;
+  height: 4.86111vw;
+  border: 0.13889vw solid #ffffff;
+  border-radius: 0.69444vw;
   background-color: rgba(255, 255, 255, 0.1);
   font-family: "SF Pro Display";
-  font-size: 24px;
+  font-size: 1.66667vw;
   font-weight: 500;
-  line-height: 66px;
+  line-height: 4.58333vw;
   color: #ffffff;
 }
 
@@ -230,14 +231,14 @@
 }
 
 .home .main .connect .connect-btn {
-  width: 175px;
-  height: 70px;
-  border-radius: 10px;
+  width: 12.15278vw;
+  height: 4.86111vw;
+  border-radius: 0.69444vw;
   background-color: #ffffff;
   font-family: "SF Pro Display";
-  font-size: 24px;
+  font-size: 1.66667vw;
   font-weight: 700;
-  line-height: 29px;
+  line-height: 2.01389vw;
   color: #101012;
   text-align: center;
 }
@@ -245,8 +246,8 @@
 .home .pin-field {
   position: absolute;
   z-index: 200;
-  top: 277px;
-  left: 720px;
+  top: 19.23611vw;
+  left: 50vw;
 }
 
 .home .pin-field .pin-centre {
@@ -254,8 +255,8 @@
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
-  width: 10px;
-  height: 10px;
+  width: 0.69444vw;
+  height: 0.69444vw;
   border-radius: 50%;
   background-color: #ffffff;
 }
@@ -265,9 +266,9 @@
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
-  width: 110px;
-  height: 110px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  width: 7.63889vw;
+  height: 7.63889vw;
+  border: 0.13889vw solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.04);
 }
@@ -277,9 +278,9 @@
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
-  width: 450px;
-  height: 450px;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 31.25vw;
+  height: 31.25vw;
+  border: 0.13889vw solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.04);
 }
@@ -289,9 +290,9 @@
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
-  width: 960px;
-  height: 960px;
-  border: 2px solid rgba(255, 255, 255, 0.05);
+  width: 66.66667vw;
+  height: 66.66667vw;
+  border: 0.13889vw solid rgba(255, 255, 255, 0.05);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.02);
 }
@@ -312,7 +313,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -358.04386px);
+  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-1.48242vw, -24.86416vw);
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
@@ -322,7 +323,7 @@
   left: 0;
   width: 100%;
   opacity: 0;
-  transform: scale(0.8375) translate(-9.70149%, -9.70149%) translate(139.70149px, -182.68657px);
+  transform: scale(0.8375) translate(-9.70149%, -9.70149%) translate(9.70149vw, -12.68657vw);
 }
 
 .home .maps .Iowa-US {
@@ -331,7 +332,7 @@
   left: 0;
   width: 100%;
   opacity: 0;
-  transform: scale(0.0653) translate(-715.69678%, -715.69678%) translate(14456.66156px, 3047.77948px);
+  transform: scale(0.0653) translate(-715.69678%, -715.69678%) translate(1003.93483vw, 211.65135vw);
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
@@ -342,7 +343,7 @@
   left: 0;
   width: 100%;
   opacity: 0;
-  transform: scale(15.0083) translate(46.66851%, 46.66851%) translate(-665.76494px, -389.71769px) rotate(90deg);
+  transform: scale(15.0083) translate(46.66851%, 46.66851%) translate(-46.23368vw, -27.06373vw) rotate(90deg);
 }
 
 .home .map-grid {
@@ -350,12 +351,12 @@
   z-index: 196;
   top: 0;
   left: 0;
-  width: 1460px;
-  height: 921px;
+  width: 101.38889vw;
+  height: 63.95833vw;
   background-image: url(../images/Map-Grid.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  transform: translate(-10px, -10px);
+  transform: translate(-0.69444vw, -0.69444vw);
 }
 
 .home.connecting-begin .main {
@@ -365,22 +366,22 @@
 }
 
 .home.connecting-begin .main .info {
-  transform: translate(-43px, 30px);
+  transform: translate(-2.98611vw, 2.08333vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
 }
 
 .home.connecting-begin .main .ip {
-  transform: translate(59.5px, 30px);
+  transform: translate(4.13194vw, 2.08333vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
 }
 
 .home.connecting-begin .main .current-location {
-  transform: translate(-27.5px, 30px);
+  transform: translate(-1.90972vw, 2.08333vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
 }
 
 .home.connecting-begin .main .connect {
-  transform: translate(0, 20px);
+  transform: translate(0, 1.38889vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
 }
 
@@ -390,25 +391,25 @@
 }
 
 .home.connecting-begin .pin-field .pin-centre {
-  transform: translate(-50%, -50%) translateY(130px);
+  transform: translate(-50%, -50%) translateY(9.02778vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.5s;
 }
 
 .home.connecting-begin .pin-field .pin-wave-small {
-  width: 8px;
-  height: 8px;
+  width: 0.55556vw;
+  height: 0.55556vw;
   transition: width 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connecting-begin .pin-field .pin-wave-normal {
-  width: 14px;
-  height: 14px;
+  width: 0.97222vw;
+  height: 0.97222vw;
   transition: width 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connecting-begin .pin-field .pin-wave-large {
-  width: 14px;
-  height: 14px;
+  width: 0.97222vw;
+  height: 0.97222vw;
   transition: width 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 0.4s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
@@ -419,13 +420,13 @@
 
 .home.connecting-begin .maps .Lagos-Nigeria {
   opacity: 0;
-  transform: scale(0.0306) translate(-1583.98693%, -1583.98693%) translate(22100px, 16283.00654px) rotate(-30deg);
+  transform: scale(0.0306) translate(-1583.98693%, -1583.98693%) translate(1534.72222vw, 1130.76434vw) rotate(-30deg);
   transition: opacity 0.2s cubic-bezier(0.55, 0.05, 0.67, 0.19) 0.5s, transform 0.2s cubic-bezier(0.55, 0.05, 0.67, 0.19) 0.5s;
 }
 
 .home.connecting-begin .globe {
   opacity: 1;
-  transform: scale(1.2722) translate(10.698%, 10.698%) translate(-154.06383px, 22.98381px) rotate(0deg);
+  transform: scale(1.2722) translate(10.698%, 10.698%) translate(-10.69888vw, 1.5961vw) rotate(0deg);
   transition: opacity 0.52s cubic-bezier(0.22, 0.61, 0.35, 1) 0.71s, transform 0.52s cubic-bezier(0.22, 0.61, 0.35, 1) 0.71s;
 }
 
@@ -435,8 +436,8 @@
 }
 
 .home.connecting-search-locations .search-pin-field .search-pin .pin-wave {
-  width: 138px;
-  height: 138px;
+  width: 9.58333vw;
+  height: 9.58333vw;
   opacity: 0;
 }
 
@@ -466,13 +467,13 @@
 
 .home.connecting-search-locations .maps .United-States {
   opacity: 1;
-  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -358.04386px);
+  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-1.48242vw, -24.86416vw);
   transition: opacity 0.56s cubic-bezier(0, 0.63, 0.35, 1) 0.18s, transform 0.56s cubic-bezier(0.22, 0.61, 0.35, 1) 0.18s;
 }
 
 .home.connecting-search-locations .globe {
   opacity: 0;
-  transform: scale(7.4569) translate(43.2948%, 43.2948%) translate(-98.56643px, -101.38261px) rotate(0deg);
+  transform: scale(7.4569) translate(43.2948%, 43.2948%) translate(-6.84489vw, -7.04046vw) rotate(0deg);
   transition: opacity 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s, transform 0.74s cubic-bezier(0.22, 0.61, 0.35, 1) 0s;
 }
 
@@ -483,62 +484,62 @@
 }
 
 .home.connected .main-connected .info {
-  transform: translateY(0px);
+  transform: translateY(0vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .main-connected .ip {
-  transform: translateY(0px);
+  transform: translateY(0vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .main-connected .virtual-location {
-  transform: translateY(0px);
+  transform: translateY(0vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .main-connected .disconnect {
-  transform: translateY(0px);
+  transform: translateY(0vw);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .search-pin-field .search-pin-1 {
-  top: 277px;
-  left: 720px;
+  top: 19.23611vw;
+  left: 50vw;
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .search-pin-field .search-pin-2 {
-  top: 939px;
-  left: 139px;
+  top: 65.20833vw;
+  left: 9.65278vw;
   opacity: 0;
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .search-pin-field .search-pin-3 {
-  top: 493px;
-  left: 139px;
+  top: 34.23611vw;
+  left: 9.65278vw;
   opacity: 0;
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .search-pin-field .search-pin-4 {
-  top: 454px;
-  left: 329px;
+  top: 31.52778vw;
+  left: 22.84722vw;
   opacity: 0;
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .search-pin-field .search-pin-5 {
-  top: 456px;
-  left: 1087px;
+  top: 31.66667vw;
+  left: 75.48611vw;
   opacity: 0;
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .search-pin-field .search-pin-6 {
-  top: 889px;
-  left: 1018px;
+  top: 61.73611vw;
+  left: 70.69444vw;
   opacity: 0;
   transition: top 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
@@ -554,20 +555,20 @@
 }
 
 .home.connected .pin-field .pin-wave-small {
-  width: 110px;
-  height: 110px;
+  width: 7.63889vw;
+  height: 7.63889vw;
   transition: width 0.64s cubic-bezier(0.64, 0.04, 0.35, 1) 0.28s, height 0.64s cubic-bezier(0.64, 0.04, 0.35, 1) 0.28s;
 }
 
 .home.connected .pin-field .pin-wave-normal {
-  width: 450px;
-  height: 450px;
+  width: 31.25vw;
+  height: 31.25vw;
   transition: width 0.69s cubic-bezier(0.64, 0.04, 0.35, 1) 0.48s, height 0.69s cubic-bezier(0.64, 0.04, 0.35, 1) 0.48s;
 }
 
 .home.connected .pin-field .pin-wave-large {
-  width: 966px;
-  height: 966px;
+  width: 67.08333vw;
+  height: 67.08333vw;
   transition: width 0.95s cubic-bezier(0.64, 0.04, 0.35, 1) 0.76s, height 0.95s cubic-bezier(0.64, 0.04, 0.35, 1) 0.76s;
 }
 
@@ -578,19 +579,19 @@
 
 .home.connected .maps .Lagos-Nigeria {
   opacity: 0;
-  transform: scale(2.5861) translate(30.66587%, 30.66587%) translate(-446.8814px, -515.71092px) rotate(-30deg);
+  transform: scale(2.5861) translate(30.66587%, 30.66587%) translate(-31.03343vw, -35.81326vw) rotate(-30deg);
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .maps .United-States {
   opacity: 0;
-  transform: scale(3.0083) translate(33.37932%, 33.37932%) translate(-727.32108px, -544.49357px);
+  transform: scale(3.0083) translate(33.37932%, 33.37932%) translate(-50.50841vw, -37.81205vw);
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home.connected .maps .Iowa-US {
   opacity: 1;
-  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-21.34679px, -525.90724px);
+  transform: scale(1.0306) translate(1.48457%, 1.48457%) translate(-1.48242vw, -36.52134vw);
   transition: opacity 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 

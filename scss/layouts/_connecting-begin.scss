@@ -6,22 +6,22 @@
     transition: opacity .5s $ease-both .37s;
 
     .info {
-      transform: translate(-43px, 30px);
+      transform: translate(px2vw(-43), px2vw(30));
       transition: transform .5s $ease-both .37s;
     }
 
     .ip {
-      transform: translate(59.5px, 30px);
+      transform: translate(px2vw(59.5), px2vw(30));
       transition: transform .5s $ease-both .37s;
     }
 
     .current-location {
-      transform: translate(-27.5px, 30px);
+      transform: translate(px2vw(-27.5), px2vw(30));
       transition: transform .5s $ease-both .37s;
     }
 
     .connect {
-      transform: translate(0, 20px);
+      transform: translate(0, px2vw(20));
       transition: transform .5s $ease-both .37s;
     }
   }
@@ -31,25 +31,25 @@
     transition: opacity .5s $ease-both .5s;
 
     .pin-centre {
-      transform: translate(-50%, -50%) translateY(130px);
+      transform: translate(-50%, -50%) translateY(px2vw(130));
       transition: transform .5s $ease-both .5s;
     }
 
     .pin-wave-small {
-      width: 8px;
-      height: 8px;
+      width: px2vw(8);
+      height: px2vw(8);
       transition: width .4s $ease-both 0s, height .4s $ease-both 0s;
     }
 
     .pin-wave-normal {
-      width: 14px;
-      height: 14px;
+      width: px2vw(14);
+      height: px2vw(14);
       transition: width .4s $ease-both 0s, height .4s $ease-both 0s;
     }
 
     .pin-wave-large {
-      width: 14px;
-      height: 14px;
+      width: px2vw(14);
+      height: px2vw(14);
       transition: width .4s $ease-both 0s, height .4s $ease-both 0s;
     }
   }
@@ -63,7 +63,7 @@
     .Lagos-Nigeria {
       $scale-value: .0306;
       opacity: 0;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(676.26 / $scale-value + px, 498.26 / $scale-value + px) rotate(-30deg);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(676.26 / $scale-value), px2vw(498.26 / $scale-value)) rotate(-30deg);
       transition: opacity .2s $ease-in .5s, transform .2s $ease-in .5s;
     }
   }
@@ -71,7 +71,7 @@
   .globe {
     $scale-value: 1.2722;
     opacity: 1;
-    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-196 / $scale-value + px, 29.24 / $scale-value + px) rotate(0deg);
+    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-196 / $scale-value), px2vw(29.24 / $scale-value)) rotate(0deg);
     transition: opacity .52s $ease-out .71s, transform .52s $ease-out .71s;
   }
 }

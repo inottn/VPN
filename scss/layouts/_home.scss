@@ -2,8 +2,9 @@ $z-index-base: 200;
 
 .home {
   position: relative;
-  width: $root-width;
-  height: $root-height;
+  width: px2vw($root-width);
+  max-height: px2vw($root-height);
+  height: 100vh;
   background-color: #313237;
   overflow: hidden;
 
@@ -34,8 +35,8 @@ $z-index-base: 200;
 
       .pin-centre {
         position: absolute;
-        width: 10px;
-        height: 10px;
+        width: px2vw(10);
+        height: px2vw(10);
         border-radius: 50%;
         background-color: #ffffff;
         transform: translate(-50%, -50%);
@@ -43,9 +44,9 @@ $z-index-base: 200;
 
       .pin-wave {
         position: absolute;
-        width: 10px;
-        height: 10px;
-        border: 2px solid #ffffff;
+        width: px2vw(10);
+        height: px2vw(10);
+        border: px2vw(2) solid #ffffff;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, .2);
         transform: translate(-50%, -50%);
@@ -53,79 +54,79 @@ $z-index-base: 200;
     }
 
     .search-pin-1 {
-      top: 288px;
-      left: 943px;
+      top: px2vw(288);
+      left: px2vw(943);
     }
 
     .search-pin-2 {
-      top: 635px;
-      left: 290px;
+      top: px2vw(635);
+      left: px2vw(290);
     }
     
     .search-pin-3 {
-      top: 189px;
-      left: 290px;
+      top: px2vw(189);
+      left: px2vw(290);
     }
 
     .search-pin-4 {
-      top: 450px;
-      left: 481px;
+      top: px2vw(450);
+      left: px2vw(481);
     }
 
     .search-pin-5 {
-      top: 152px;
-      left: 1238px;
+      top: px2vw(152);
+      left: px2vw(1238);
     }
 
     .search-pin-6 {
-      top: 585px;
-      left: 1169px;
+      top: px2vw(585);
+      left: px2vw(1169);
     }
   }
 
   .main-connected {
     position: absolute;
     z-index: $z-index-base + 4;
-    top: 327px;
-    left: 458.5px;
-    width: 542px;
+    top: px2vw(327);
+    left: px2vw(458.5);
+    width: px2vw(542);
     opacity: 0;
     pointer-events: none;
     transition: opacity .5s $ease-both 0s;
 
     .info {
       font-family: "SF Pro Display";
-      font-size: 24px;
+      font-size: px2vw(24);
       font-weight: 700;
-      line-height: 29px;
+      line-height: px2vw(29);
       color: #80ff4b;
       text-align: center;
-      transform: translateY(31px);
+      transform: translateY(px2vw(31));
       transition: transform .5s $ease-both 0s;
     }
 
     .ip {
-      margin-top: 10px;
+      margin-top: px2vw(10);
       font-family: "SF Pro Display";
-      font-size: 80px;
+      font-size: px2vw(80);
       font-weight: 900;
-      letter-spacing: -2.4px;
-      line-height: 95px;
+      letter-spacing: px2vw(-2.4);
+      line-height: px2vw(95);
       color: #ffffff;
       text-align: center;
-      transform: translateY(35px);
+      transform: translateY(px2vw(35));
       transition: transform .5s $ease-both 0s;
     }
 
     .virtual-location {
-      margin-top: 20px;
+      margin-top: px2vw(20);
       font-family: "SF Pro Display";
-      font-size: 24px;
+      font-size: px2vw(24);
       font-weight: 500;
-      line-height: 29px;
+      line-height: px2vw(29);
       color: rgba(255, 255, 255, .5);
       text-align: center;
-      transform: translateY(35px);
+      transform: translateY(px2vw(35));
       transition: transform .5s $ease-both 0s;
 
       span {
@@ -134,22 +135,22 @@ $z-index-base: 200;
     }
 
     .disconnect {
-      margin: 52px auto 0;
-      width: 500px;
-      height: 70px;
+      margin: px2vw(52) auto 0;
+      width: px2vw(500);
+      height: px2vw(70);
       text-align: center;
-      transform: translateY(26px);
+      transform: translateY(px2vw(26));
       transition: transform .5s $ease-both 0s;
 
       .disconnect-btn {
-        width: 220px;
-        height: 70px;
-        border-radius: 10px;
+        width: px2vw(220);
+        height: px2vw(70);
+        border-radius: px2vw(10);
         background-color: #ffffff;
         font-family: "SF Pro Display";
-        font-size: 24px;
+        font-size: px2vw(24);
         font-weight: 700;
-        line-height: 29px;
+        line-height: px2vw(29);
         color: #101012;
         text-align: center;
       }
@@ -159,40 +160,40 @@ $z-index-base: 200;
   .main {
     position: absolute;
     z-index: $z-index-base + 3;
-    top: 327px;
-    left: 458.5px;
-    width: 542px;
+    top: px2vw(327);
+    left: px2vw(458.5);
+    width: px2vw(542);
     opacity: 1;
     transition: opacity .5s $ease-both 0s;
 
     .info {
       font-family: "SF Pro Display";
-      font-size: 24px;
+      font-size: px2vw(24);
       font-weight: 700;
-      line-height: 29px;
+      line-height: px2vw(29);
       color: #FF7387;
       text-align: center;
       transition: transform .5s $ease-both 0s;
     }
 
     .ip {
-      margin-top: 10px;
+      margin-top: px2vw(10);
       font-family: "SF Pro Display";
-      font-size: 80px;
+      font-size: px2vw(80);
       font-weight: 900;
-      letter-spacing: -2.4px;
-      line-height: 95px;
+      letter-spacing: px2vw(-2.4);
+      line-height: px2vw(95);
       color: #ffffff;
       text-align: center;
       transition: transform .5s $ease-both 0s;
     }
 
     .current-location {
-      margin-top: 20px;
+      margin-top: px2vw(20);
       font-family: "SF Pro Display";
-      font-size: 24px;
+      font-size: px2vw(24);
       font-weight: 500;
-      line-height: 29px;
+      line-height: px2vw(29);
       color: rgba(255, 255, 255, .5);
       text-align: center;
       transition: transform .5s $ease-both 0s;
@@ -205,22 +206,22 @@ $z-index-base: 200;
     .connect {
       display: flex;
       justify-content: space-between;
-      margin: 52px auto 0;
-      width: 500px;
-      height: 70px;
+      margin: px2vw(52) auto 0;
+      width: px2vw(500);
+      height: px2vw(70);
       transition: transform .5s $ease-both 0s;
 
       .location {
-        padding-left: 27.5px;
-        width: 305px;
-        height: 70px;
-        border: 2px solid #ffffff;
-        border-radius: 10px;
+        padding-left: px2vw(27.5);
+        width: px2vw(305);
+        height: px2vw(70);
+        border: px2vw(2) solid #ffffff;
+        border-radius: px2vw(10);
         background-color: rgba(255, 255, 255, .1);
         font-family: "SF Pro Display";
-        font-size: 24px;
+        font-size: px2vw(24);
         font-weight: 500;
-        line-height: 66px;
+        line-height: px2vw(66);
         color: #ffffff;
 
         span {
@@ -229,14 +230,14 @@ $z-index-base: 200;
       }
 
       .connect-btn {
-        width: 175px;
-        height: 70px;
-        border-radius: 10px;
+        width: px2vw(175);
+        height: px2vw(70);
+        border-radius: px2vw(10);
         background-color: #ffffff;
         font-family: "SF Pro Display";
-        font-size: 24px;
+        font-size: px2vw(24);
         font-weight: 700;
-        line-height: 29px;
+        line-height: px2vw(29);
         color: #101012;
         text-align: center;
       }
@@ -246,16 +247,16 @@ $z-index-base: 200;
   .pin-field {
     position: absolute;
     z-index: $z-index-base;
-    top: 277px;
-    left: 720px;
+    top: px2vw(277);
+    left: px2vw(720);
 
     .pin-centre {
       position: absolute;
       top: 0;
       left: 0;
       transform: translate(-50%, -50%);
-      width: 10px;
-      height: 10px;
+      width: px2vw(10);
+      height: px2vw(10);
       border-radius: 50%;
       background-color: #ffffff;
     }
@@ -265,9 +266,9 @@ $z-index-base: 200;
       top: 0;
       left: 0;
       transform: translate(-50%, -50%);
-      width: 110px;
-      height: 110px;
-      border: 2px solid rgba(255, 255, 255, .3);
+      width: px2vw(110);
+      height: px2vw(110);
+      border: px2vw(2) solid rgba(255, 255, 255, .3);
       border-radius: 50%;
       background-color: rgba(255, 255, 255, .04);
     }
@@ -277,9 +278,9 @@ $z-index-base: 200;
       top: 0;
       left: 0;
       transform: translate(-50%, -50%);
-      width: 450px;
-      height: 450px;
-      border: 2px solid rgba(255, 255, 255, .1);
+      width: px2vw(450);
+      height: px2vw(450);
+      border: px2vw(2) solid rgba(255, 255, 255, .1);
       border-radius: 50%;
       background-color: rgba(255, 255, 255, .04);
     }
@@ -289,9 +290,9 @@ $z-index-base: 200;
       top: 0;
       left: 0;
       transform: translate(-50%, -50%);
-      width: 960px;
-      height: 960px;
-      border: 2px solid rgba(255, 255, 255, .05);
+      width: px2vw(960);
+      height: px2vw(960);
+      border: px2vw(2) solid rgba(255, 255, 255, .05);
       border-radius: 50%;
       background-color: rgba(255, 255, 255, .02);
     }
@@ -315,7 +316,7 @@ $z-index-base: 200;
       top: 0;
       left: 0;
       width: 100%;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22 / $scale-value + px, -369 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-22 / $scale-value), px2vw(-369 / $scale-value));
       transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
 
@@ -326,7 +327,7 @@ $z-index-base: 200;
       left: 0;
       width: 100%;
       opacity: 0;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(117 / $scale-value + px, -153 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(117 / $scale-value), px2vw(-153 / $scale-value));
     }
 
     .Iowa-US {
@@ -336,7 +337,7 @@ $z-index-base: 200;
       left: 0;
       width: 100%;
       opacity: 0;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(944.02 / $scale-value + px, 199.02 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(944.02 / $scale-value), px2vw(199.02 / $scale-value));
       transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
   }
@@ -349,7 +350,7 @@ $z-index-base: 200;
     left: 0;
     width: 100%;
     opacity: 0;
-    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-9992 / $scale-value + px, -5849 / $scale-value + px) rotate(90deg);
+    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-9992 / $scale-value), px2vw(-5849 / $scale-value)) rotate(90deg);
   }
 
   .map-grid {
@@ -357,11 +358,11 @@ $z-index-base: 200;
     z-index: $z-index-base - 4;
     top: 0;
     left: 0;
-    width: 1460px;
-    height: 921px;
+    width: px2vw(1460);
+    height: px2vw(921);
     background-image: url(../images/Map-Grid.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    transform: translate(-10px, -10px);
+    transform: translate(px2vw(-10), px2vw(-10));
   }
 }

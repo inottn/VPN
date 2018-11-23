@@ -6,64 +6,64 @@
     transition: opacity .5s $ease-both 0s;
 
     .info {
-      transform: translateY(0px);
+      transform: translateY(px2vw(0));
       transition: transform .5s $ease-both 0s;
     }
 
     .ip {
-      transform: translateY(0px);
+      transform: translateY(px2vw(0));
       transition: transform .5s $ease-both 0s;
     }
 
     .virtual-location {
-      transform: translateY(0px);
+      transform: translateY(px2vw(0));
       transition: transform .5s $ease-both 0s;
     }
 
     .disconnect {
-      transform: translateY(0px);
+      transform: translateY(px2vw(0));
       transition: transform .5s $ease-both 0s;
     }
   }
 
   .search-pin-field {
     .search-pin-1 {
-      top: 277px;
-      left: 720px;
+      top: px2vw(277);
+      left: px2vw(720);
       transition: top .5s $ease-both 0s, left .5s $ease-both 0s;
     }
 
     .search-pin-2 {
-      top: 939px;
-      left: 139px;
+      top: px2vw(939);
+      left: px2vw(139);
       opacity: 0;
       transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
     }
 
     .search-pin-3 {
-      top: 493px;
-      left: 139px;
+      top: px2vw(493);
+      left: px2vw(139);
       opacity: 0;
       transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
     }
 
     .search-pin-4 {
-      top: 454px;
-      left: 329px;
+      top: px2vw(454);
+      left: px2vw(329);
       opacity: 0;
       transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
     }
 
     .search-pin-5 {
-      top: 456px;
-      left: 1087px;
+      top: px2vw(456);
+      left: px2vw(1087);
       opacity: 0;
       transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
     }
 
     .search-pin-6 {
-      top: 889px;
-      left: 1018px;
+      top: px2vw(889);
+      left: px2vw(1018);
       opacity: 0;
       transition: top .5s $ease-both 0s, left .5s $ease-both 0s, opacity .5s $ease-both 0s;
     }
@@ -79,20 +79,20 @@
     }
 
     .pin-wave-small {
-      width: 110px;
-      height: 110px;
+      width: px2vw(110);
+      height: px2vw(110);
       transition: width .64s $ease-both .28s, height .64s $ease-both .28s;
     }
 
     .pin-wave-normal {
-      width: 450px;
-      height: 450px;
+      width: px2vw(450);
+      height: px2vw(450);
       transition: width .69s $ease-both .48s, height .69s $ease-both .48s;
     }
 
     .pin-wave-large {
-      width: 966px;
-      height: 966px;
+      width: px2vw(966);
+      height: px2vw(966);
       transition: width .95s $ease-both .76s, height .95s $ease-both .76s;
     }
   }
@@ -106,21 +106,21 @@
     .Lagos-Nigeria {
       $scale-value: 2.5861;
       opacity: 0;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-1155.68 / $scale-value + px, -1333.68 / $scale-value + px) rotate(-30deg);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-1155.68 / $scale-value), px2vw(-1333.68 / $scale-value)) rotate(-30deg);
       transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
 
     .United-States {
       $scale-value: 3.0083;
       opacity: 0;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-2188 / $scale-value + px, -1638 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-2188 / $scale-value), px2vw(-1638 / $scale-value));
       transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
 
     .Iowa-US {
       $scale-value: 1.0306;
       opacity: 1;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22 / $scale-value + px, -542 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-22 / $scale-value), px2vw(-542 / $scale-value));
       transition: opacity .5s $ease-both 0s, transform .5s $ease-both 0s;
     }
   }

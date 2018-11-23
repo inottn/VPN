@@ -5,8 +5,8 @@
     transition: opacity .5s $ease-out .65s;
 
     .search-pin .pin-wave {
-      width: 138px;
-      height: 138px;
+      width: px2vw(138);
+      height: px2vw(138);
       opacity: 0;
     }
     .search-pin-1 .pin-wave {
@@ -38,7 +38,7 @@
     .United-States {
       $scale-value: 1.0306;
       opacity: 1;
-      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-22 / $scale-value + px, -369 / $scale-value + px);
+      transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-22 / $scale-value), px2vw(-369 / $scale-value));
       transition: opacity .56s cubic-bezier(0, 0.63, 0.35, 1) .18s, transform .56s $ease-out .18s;
     }
   }
@@ -46,7 +46,7 @@
   .globe {
     $scale-value: 7.4569;
     opacity: 0;
-    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(-735 / $scale-value + px, -756 / $scale-value + px) rotate(0deg);
+    transform: scale($scale-value) translate(50% - 50% / $scale-value, 50% - 50% / $scale-value) translate(px2vw(-735 / $scale-value), px2vw(-756 / $scale-value)) rotate(0deg);
     transition: opacity .74s $ease-out 0s, transform .74s $ease-out 0s;
   }
 }
