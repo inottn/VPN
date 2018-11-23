@@ -133,7 +133,7 @@
   color: #ffffff;
 }
 
-.home .main-connected .select-location {
+.home .main-connected .disconnect {
   margin: 52px auto 0;
   width: 500px;
   height: 70px;
@@ -142,7 +142,7 @@
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
-.home .main-connected .select-location .select-btn {
+.home .main-connected .disconnect .disconnect-btn {
   width: 220px;
   height: 70px;
   border-radius: 10px;
@@ -202,7 +202,7 @@
   color: #ffffff;
 }
 
-.home .main .select-location {
+.home .main .connect {
   display: flex;
   justify-content: space-between;
   margin: 52px auto 0;
@@ -211,7 +211,7 @@
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
-.home .main .select-location .location {
+.home .main .connect .location {
   padding-left: 27.5px;
   width: 305px;
   height: 70px;
@@ -225,11 +225,11 @@
   color: #ffffff;
 }
 
-.home .main .select-location .location span {
+.home .main .connect .location span {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.home .main .select-location .select-btn {
+.home .main .connect .connect-btn {
   width: 175px;
   height: 70px;
   border-radius: 10px;
@@ -378,7 +378,7 @@
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
 }
 
-.home.connecting-begin .main .select-location {
+.home.connecting-begin .main .connect {
   transform: translate(0, 20px);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0.37s;
 }
@@ -496,7 +496,7 @@
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
-.home.connected .main-connected .select-location {
+.home.connected .main-connected .disconnect {
   transform: translateY(0px);
   transition: transform 0.5s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }

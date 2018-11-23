@@ -133,7 +133,7 @@ $z-index-base: 200;
       }
     }
 
-    .select-location {
+    .disconnect {
       margin: 52px auto 0;
       width: 500px;
       height: 70px;
@@ -141,7 +141,7 @@ $z-index-base: 200;
       transform: translateY(26px);
       transition: transform .5s $ease-both 0s;
 
-      .select-btn {
+      .disconnect-btn {
         width: 220px;
         height: 70px;
         border-radius: 10px;
@@ -202,7 +202,7 @@ $z-index-base: 200;
       }
     }
 
-    .select-location {
+    .connect {
       display: flex;
       justify-content: space-between;
       margin: 52px auto 0;
@@ -228,7 +228,7 @@ $z-index-base: 200;
         }
       }
 
-      .select-btn {
+      .connect-btn {
         width: 175px;
         height: 70px;
         border-radius: 10px;
